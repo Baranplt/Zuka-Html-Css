@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="https://kit.fontawesome.com/9492db4d02.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header border-bottom pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-inner pt-3 ">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="header-logo">
+                                <img src="assets/img/Logo.png" alt="">
+                            </div>
+                            <div class="header-bar">
+                                <ul class="nav d-none d-lg-flex ">
+                                    <li><a href="#" class="me-4 color-primary fw-bold">Home <i
+                                                class="fa-solid fa-chevron-down  ms-1" style="font-size:12px ;"></i></a>
+                                    </li>
+                                    <li><a href="#" class="me-4 color-primary fw-bold ">Blog <i
+                                                class="fa-solid fa-chevron-down ms-1" style="font-size:12px ;"></i></a>
+                                    </li>
+                                    <li><a href="#" class="me-4 color-primary fw-bold">Page<i
+                                                class="fa-solid fa-chevron-down ms-1" style="font-size:12px ;"></i></a>
+                                    </li>
+                                    <li><a href="#" class="me-4 color-primary fw-bold">Pricing</a></li>
+                                    <li><a href="#" class="me-2 color-primary fw-bold">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="user-btn d-none d-lg-flex">
+                                <button class="btn btn-outline-primary text-black border-dark me-3">
+                                    Log In
+                                </button>
+                                <button class="btn btn-primary btn-primary-bg-color">
+                                    Sign Up
+                                </button>
+                            </div>
+                            <div class="mobile-user-icon d-flex d-lg-none" id="mobile-icon">
+                                <i class="fa-solid fa-bars fs-1 me-3"></i>
+                            </div>
+                            <div class="mobile-user-icon d-none" id="mobile-exit-icon"><i
+                                    class="fa-solid fa-xmark fs-1 me-3 text-danger"></i>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-mobile">
+        <div class="mobile-form d-none p-4" id="mobile-form">
+            <form class="row col-12 needs-validation" novalidate>
+                <div class="col-12 position-relative mb-3">
+                    <label for="validationTooltip01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-12 position-relative mb-3">
+                    <label for=" validationTooltip02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-12  d-flex  justify-content-center">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="hero pt-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-lg-7   d-flex align-items-center">
+                    <div class="hero-left text-center text-lg-start pt-5 ">
+                        <div class="hero-info color-secondary fw-bold  fs-5">
+                            Last Collection
+                        </div>
+                        <div class="hero-title fw-bold fs-7 pt-4">
+                            The World Of Technology
+                            In Your Hands
+                        </div>
+                        <div class="hero-desc desc-color fw-light fs-5 pt-4">Discover and master technology in your
+                            life.
+                        </div>
+                        <div class="hero-btn pt-4 ">
+                            <button class="btn btn-primary px-5 mt-4">
+                                Shopping Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="hero-right pt-12 pt-lg-0">
+                        <img src="assets/img/hero.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="mark-nav  my-5 py-5">
+                <ul class=" nav ">
+                    <li><a href="#" class="me-5"><img src="assets/img/hero-1.png" alt=""></a></li>
+                    <li><a href="#" class="me-5"><img src="assets/img/hero-2.png" alt=""></a></li>
+                    <li><a href="#" class="me-5"><img src="assets/img/hero-3.png" alt=""></a></li>
+                    <li><a href="#" class="me-5 d-none d-lg-flex"><img src="assets/img/hero-4.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="home-info  col-12 d-none d-lg-flex justify-content-center">
+
+                <div class="home-info-bg ">
+
+                    <img src="assets/img/çizgi.png" alt="">
+                </div>
+                <div class="home-info-free d-flex  flex-column align-items-center">
+                    <img src="assets/img/free.png" alt="">
+                    <h1 class="home-h1">Free Shipping</h1>
+                    <span class="home-span">Free delivery for all orders</span>
+                </div>
+                <div class="home-info-money d-flex  flex-column align-items-center">
+                    <img src="assets/img/money.png" alt="">
+                    <h1 class="home-h1">Money Guarantee</h1>
+                    <span class="home-span">30 days money back</span>
+                </div>
+                <div class="home-info-support d-flex  flex-column align-items-center">
+                    <img src="assets/img/support.png" alt="">
+                    <h1 class="home-h1">24/7 Support</h1>
+                    <span class="home-span">Friendly 24/7 support</span>
+                </div>
+                <div class="home-info-secure d-flex  flex-column align-items-center">
+                    <img src="assets/img/secure.png" alt="">
+                    <h1 class="home-h1">Secure Payment</h1>
+                    <span class="home-span">All cards accepted</span>
+                </div>
+            </div>
+            <div class="home-info-mobile  col-12 d-flex d-lg-none justify-content-center ">
+                <div class="home-info-bg ">
+
+                    <img src="assets/img/12.png" alt="">
+                </div>
+                <div class="home-info-free-mobile d-flex  flex-column align-items-center">
+                    <img src="assets/img/free.png" alt="">
+                    <h1 class="home-h1">Free Shipping</h1>
+                    <span class="home-span">Free delivery for all orders</span>
+                </div>
+                <div class="home-info-money-mobile d-flex  flex-column align-items-center">
+                    <img src="assets/img/money.png" alt="">
+                    <h1 class="home-h1">Money Guarantee</h1>
+                    <span class="home-span">30 days money back</span>
+                </div>
+                <div class="home-info-support-mobile d-flex  flex-column align-items-center">
+                    <img src="assets/img/support.png" alt="">
+                    <h1 class="home-h1">24/7 Support</h1>
+                    <span class="home-span">Friendly 24/7 support</span>
+                </div>
+                <div class="home-info-secure-mobile d-flex  flex-column align-items-center">
+                    <img src="assets/img/secure.png" alt="">
+                    <h1 class="home-h1">Secure Payment</h1>
+                    <span class="home-span">All cards accepted</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="best-seller  text-center text-lg-start pt-13 pt-lg-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="title pb-3">
+                        <h1 class="fw-bold">Best Seller</h1>
+                    </div>
+                    <div class="desc desc-color ">
+                        Check our best seller products on Zuka website right now
+                    </div>
+                    <div class="seller mt-5">
+                        <div class="row">
+                            <div class="col-12  col-lg-3">
+                                <div class="item  p-4 position-relative" id="item" onmouseover="hoverItem(this ,true)"
+                                    onmouseout="hoverItem(this,false)">
+                                    <div class="item-t d-flex justify-content-between align-items-center mb-3">
+                                        <div class="sale-btn ">
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm sale-color">Sale</button>
+                                        </div>
+                                        <div class="fav">
+                                            <i class="fa-solid fa-heart fs-4" style="color:#E8E9ED ;"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-img my-4">
+                                        <img src="https://i.picsum.photos/id/893/536/354.jpg?hmac=p2t1lBmZMR12FRg5feixWe75cx1JPGvZr32uCiPPeqA"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="item-rat d-flex align-items-center mb-2">
+                                        <div class="star me-2" style="color: #FFC640; font-size: 10px;">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="pound fw-bold me-2">
+                                            4.9
+                                        </div>
+                                        <div class="ratings desc-color " style=" font-size: 10px;">
+                                            (2.401 ratings)
+                                        </div>
+                                    </div>
+                                    <div class="item-name d-flex mb-2">
+                                        <span class="fs-6 ">Macbook Pro M1 13 inch…<span>
+                                    </div>
+                                    <div class="item-buy d-flex align-items-center">
+
+                                        <h3 class="fw-bold fs-4">$799</h3> <span
+                                            class="text-decoration-line-through ms-2">$899</span>
+                                    </div>
+
+                                    <div class="item-hover position-absolute d-flex align-items-center  justify-content-center d-none"
+                                        style="top: 0; left: 0; background: rgba(71, 73, 88, 0.6);
+                                    backdrop-filter: blur(12.2323px);
+                                    border-radius: 20px; width: 100%; height: 100%;">
+                                        <div class="d-flex  flex-column">
+
+                                            <button type="button"
+                                                class="btn btn-outline-secondary text-white border-white mb-3 fs-6"><i
+                                                    class="fa-regular fa-eye me-3"></i> Secondary</button>
+                                            <button class="btn btn-primary text-white fs-6" style="color: #7571FF;"><i
+                                                    class="fa-solid fa-basket-shopping me-3"></i> Add to
+                                                cart</button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-12  col-lg-3 ">
+                                <div class="item  p-4 position-relative" id="item2" onmouseover="hoverItem(this ,true)"
+                                    onmouseout="hoverItem(this,false)">
+                                    <div class="item-t d-flex justify-content-between align-items-center mb-3">
+                                        <div class="sale-btn ">
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm sale-color">Sale</button>
+                                        </div>
+                                        <div class="fav">
+                                            <i class="fa-solid fa-heart fs-4" style="color:#E8E9ED ;"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-img my-4">
+                                        <img src="assets/img/iphone-12-pro-max_1__7_1.png" alt="">
+                                    </div>
+                                    <div class="item-rat d-flex align-items-center mb-2">
+                                        <div class="star me-2" style="color: #FFC640; font-size: 10px;">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="pound fw-bold me-2">
+                                            4.9
+                                        </div>
+                                        <div class="ratings desc-color " style=" font-size: 10px;">
+                                            (2.401 ratings)
+                                        </div>
+                                    </div>
+                                    <div class="item-name d-flex mb-2">
+                                        <span class="fs-6 ">Macbook Pro M1 13 inch…<span>
+                                    </div>
+                                    <div class="item-buy d-flex align-items-center">
+
+                                        <h3 class="fw-bold fs-4">$799</h3> <span
+                                            class="text-decoration-line-through ms-2">$899</span>
+                                    </div>
+                                    <div class="item-hover position-absolute d-flex align-items-center justify-content-center d-none"
+                                        style="top: 0; left: 0; background: rgba(71, 73, 88, 0.6);
+                                backdrop-filter: blur(12.2323px);
+                                border-radius: 20px; width: 100%; height: 100%;">
+                                        <div class="d-flex  flex-column">
+
+                                            <button type="button"
+                                                class="btn btn-outline-secondary text-white border-white mb-3 fs-6"><i
+                                                    class="fa-regular fa-eye me-3"></i> Secondary</button>
+                                            <button class="btn btn-primary text-white fs-6" style="color: #7571FF;"><i
+                                                    class="fa-solid fa-basket-shopping me-3"></i> Add to
+                                                cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12  col-lg-3">
+                                <div class="item  p-4 position-relative" id="item3" onmouseover="hoverItem(this ,true)"
+                                    onmouseout="hoverItem(this,false)">
+                                    <div class="item-t d-flex justify-content-between align-items-center mb-3">
+                                        <div class="sale-btn ">
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm sale-color">Sale</button>
+                                        </div>
+                                        <div class="fav">
+                                            <i class="fa-solid fa-heart fs-4" style="color:#E8E9ED ;"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-img my-4">
+                                        <img src="assets/img/iphone-12-pro-max_1__7_1.png" alt="">
+                                    </div>
+                                    <div class="item-rat d-flex align-items-center mb-2">
+                                        <div class="star me-2" style="color: #FFC640; font-size: 10px;">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="pound fw-bold me-2">
+                                            4.9
+                                        </div>
+                                        <div class="ratings desc-color " style=" font-size: 10px;">
+                                            (2.401 ratings)
+                                        </div>
+                                    </div>
+                                    <div class="item-name d-flex mb-2">
+                                        <span class="fs-6 ">Macbook Pro M1 13 inch…<span>
+                                    </div>
+                                    <div class="item-buy d-flex align-items-center">
+
+                                        <h3 class="fw-bold fs-4">$799</h3> <span
+                                            class="text-decoration-line-through ms-2">$899</span>
+                                    </div>
+                                    <div class="item-hover position-absolute d-flex align-items-center justify-content-center d-none"
+                                        style="top: 0; left: 0; background: rgba(71, 73, 88, 0.6);
+                                backdrop-filter: blur(12.2323px);
+                                border-radius: 20px; width: 100%; height: 100%;">
+                                        <div class="d-flex  flex-column">
+
+                                            <button type="button"
+                                                class="btn btn-outline-secondary text-white border-white mb-3 fs-6"><i
+                                                    class="fa-regular fa-eye me-3"></i> Secondary</button>
+                                            <button class="btn btn-primary text-white fs-6" style="color: #7571FF;"><i
+                                                    class="fa-solid fa-basket-shopping me-3"></i> Add to
+                                                cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12  col-lg-3">
+                                <div class="item  p-4 position-relative " id="item4" onmouseover="hoverItem(this ,true)"
+                                    onmouseout="hoverItem(this,false)">
+                                    <div class="item-t d-flex justify-content-between align-items-center mb-3">
+                                        <div class="sale-btn ">
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm sale-color">Sale</button>
+                                        </div>
+                                        <div class="fav">
+                                            <i class="fa-solid fa-heart fs-4" style="color:#E8E9ED ;"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-img my-4">
+                                        <img src="assets/img/iphone-12-pro-max_1__7_1.png" alt="">
+                                    </div>
+                                    <div class="item-rat d-flex align-items-center mb-2">
+                                        <div class="star me-2" style="color: #FFC640; font-size: 10px;">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="pound fw-bold me-2">
+                                            4.9
+                                        </div>
+                                        <div class="ratings desc-color " style=" font-size: 10px;">
+                                            (2.401 ratings)
+                                        </div>
+                                    </div>
+                                    <div class="item-name d-flex mb-2">
+                                        <span class="fs-6 ">Macbook Pro M1 13 inch…<span>
+                                    </div>
+                                    <div class="item-buy d-flex align-items-center">
+
+                                        <h3 class="fw-bold fs-4">$799</h3> <span
+                                            class="text-decoration-line-through ms-2">$899</span>
+                                    </div>
+                                    <div class="item-hover position-absolute d-flex align-items-center justify-content-center d-none"
+                                        style="top: 0; left: 0; background: rgba(71, 73, 88, 0.6);
+                                backdrop-filter: blur(12.2323px);
+                                border-radius: 20px; width: 100%; height: 100%;">
+                                        <div class="d-flex  flex-column">
+
+                                            <button type="button"
+                                                class="btn btn-outline-secondary text-white border-white mb-3 fs-6"><i
+                                                    class="fa-regular fa-eye me-3"></i> Secondary</button>
+                                            <button class="btn btn-primary text-white fs-6" style="color: #7571FF;"><i
+                                                    class="fa-solid fa-basket-shopping me-3"></i> Add to
+                                                cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="best-btn py-5">
+                            <button class="btn btn-outline-secondary text-dark">Load More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about pt-12">
+        <div class="container">
+            <div class="about-title col-12 text-center fw-bold" style="margin-bottom: 55px;">
+                <h1>About Us</h1>
+            </div>
+            <div class="row flex-column flex-column-reverse flex-lg-row ">
+                <div class="col-12 col-lg-6">
+                    <div class="about-left  position-relative">
+                        <div class="img-abt position-absolute  " style="z-index: 1;
+                        top: 20px;
+                        left: 100px;
+                        ">
+                            <img src="assets/img/Layer_2.png" alt="">
+                        </div>
+                        <div class="img-bg position-absolute " style="
+                        top: 200px;">
+                            <img src="assets/img/Base.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="about-right mt-7  d-flex flex-column align-items-center align-items-lg-start">
+                        <div class="about-card mb-6">
+                            <div class="row justify-content-end">
+                                <div class="col-12 col-lg-8">
+                                    <div class="about-find card  card-body  about-item position-relative " style=" border: 1.5px solid #B3B1FF;border-radius: 20px;
+">
+                                        <h1 class="fs-3">Find The Electronics</h1>
+                                        <span class="desc-color">The sixth course in a program that will equip you with
+                                            the
+                                            skills</span>
+                                        <div class="pop position-absolute  btn-primary-bg-color text-center" style="width: 30px;padding:0 5px;height: 20px;font-weight: 700;font-size: 16px;color: #FFFFFF;background: #7571FF;border-radius: 8px;right: -14px;top: -11px;
+
+    ">01</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-card mb-6">
+                            <div class="row justify-content-start">
+                                <div class="col-12 col-lg-8">
+                                    <div class="about-find card  card-body  about-item position-relative " style=" border: 1.5px solid #B3B1FF;border-radius: 20px;
+">
+                                        <h1 class="fs-3">Find The Electronics</h1>
+                                        <span class="desc-color">The sixth course in a program that will equip you with
+                                            the
+                                            skills</span>
+                                        <div class="pop position-absolute  btn-primary-bg-color text-center" style="width: 30px;padding:0 5px;height: 20px;font-weight: 700;font-size: 16px;color: #FFFFFF;background: #FF9637;border-radius: 8px;right: -14px;top: -11px;
+
+    ">02</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-card">
+                            <div class="row justify-content-end">
+                                <div class="col-12 col-lg-8">
+                                    <div class="about-find card  card-body  about-item position-relative "
+                                        style=" border: 1.5px solid #B3B1FF;border-radius: 20px;">
+                                        <h1 class="fs-3">Find The Electronics</h1>
+                                        <span class="desc-color">The sixth course in a program that will equip you with
+                                            the
+                                            skills</span>
+                                        <div class="pop position-absolute  btn-primary-bg-color text-center" style="width: 30px;padding:2x 5px;height: 20px;font-weight: 700;font-size: 16px;color: #FFFFFF;background: #2AD9D0;border-radius: 8px;right: -14px;top: -11px;
+
+    ">03</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary color-secondarybg fs-8 px-5 mt-5 ">Star Shoping</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="category mt-7 mb-6">
+        <div class="container">
+            <div class="row align-items-stretch ">
+                <div class="col-12 col-lg-6">
+                    <div class="card category-item bg-purple">
+                        <div class="card-body ">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="card-title">Phone</h3>
+                                <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted ">1,402 items</h6>
+
+                        </div>
+                        <div
+                            class="card-footer d-flex justify-content-center px-2 px-lg-0 pb-0 bg-transparent border-0">
+                            <img src="assets/img/c.png" class="w-lg-100 w-lg-100" alt="iphone">
+                        </div>
+                    </div>
+                    <div class="row mt-4 mb-4 mb-lg-0 align-items-lg-stretch">
+                        <div class="col-12 col-lg-6">
+                            <div class="card  h-lg-100 category-item bg-watch  pt-0 overflow-hidden mb-4 mb-lg-0 ">
+                                <img src="assets/img/c2.png" alt=""
+                                    class="card-img-top align-self-end position-m-absolute ">
+                                <div class="card-footer bg-transparent border-0 mt-4 mt-lg-0">
+                                    <h3 class="card-title mb-3">
+                                        Watch
+                                    </h3>
+                                    <h3 class="card-subtitle mb-3">
+                                        204 items
+                                    </h3>
+                                    <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card  category-item bg-head  pt-0 overflow-hidden ">
+                                <div class="card-footer pb-0 bg-transparent border-0 pt-20">
+                                    <h3 class="card-title mb-3">
+                                        Watch
+                                    </h3>
+                                    <h3 class="card-subtitle mb-3">
+                                        204 items
+                                    </h3>
+                                    <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                                </div>
+                                <img src="assets/img/c3.png" alt=""
+                                    class=" align-self-end card-img-top   position-m-absolute top-20 top-lg-0 ">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6  ">
+
+                    <div class="category-right d-flex flex-column-reverse">
+                        <div class="col-12">
+                            <div class="card mt-4 category-item bg-purple">
+                                <div class="card-body ">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Phone</h3>
+                                        <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                                    </div>
+                                    <h6 class="card-subtitle mb-2 text-muted ">1,402 items</h6>
+
+                                </div>
+                                <div class="card-footer d-flex justify-content-center p-0 bg-transparent border-0">
+                                    <img src="assets/img/c.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-stretch mt-0">
+                            <div class="col-12 col-lg-6">
+                                <div class="card h-100 category-item bg-watch  pt-0 overflow-hidden ">
+                                    <img src="assets/img/c2.png" alt="" class="card-img-top align-self-end">
+                                    <div class="card-footer bg-transparent border-0 ">
+                                        <h3 class="card-title mb-3">
+                                            Watch
+                                        </h3>
+                                        <h3 class="card-subtitle mb-3">
+                                            204 items
+                                        </h3>
+                                        <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="card category-item bg-head  pt-0 overflow-hidden ">
+                                    <div class="card-footer bg-transparent border-0 pt-20">
+                                        <h3 class="card-title mb-3">
+                                            Watch
+                                        </h3>
+                                        <h3 class="card-subtitle mb-3">
+                                            204 items
+                                        </h3>
+                                        <button class="btn btn-primary btn-primary-bg-color ">See All</button>
+                                    </div>
+                                    <img src="assets/img/c3.png" alt="" class=" align-self-end  ">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let iDOM = document.querySelector("#mobile-icon")
+        let formExitDOM = document.querySelector("#mobile-exit-icon")
+        let formDOM = document.querySelector("#mobile-form")
+        iDOM.addEventListener("click", open)
+        function open() {
+
+            iDOM.classList.add("d-none")
+            formDOM.classList.remove("d-none")
+            formExitDOM.classList.remove("d-none")
+        }
+        formExitDOM.addEventListener("click", exit)
+        function exit() {
+            formDOM.classList.add("d-none")
+            formExitDOM.classList.add("d-none")
+            iDOM.classList.remove("d-none")
+        }
+
+
+
+
+        function hoverItem(el, ishover) {
+            let itemDOM = el.querySelector(".item-hover")
+            if (ishover) {
+                itemDOM.classList.remove("d-none")
+            }
+            if (!ishover) {
+                itemDOM.classList.add("d-none")
+
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
